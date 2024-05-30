@@ -1,1 +1,3 @@
 data/application_train.csv
+data/cleaned/no_nan_ordinal_encoded.csv
+
