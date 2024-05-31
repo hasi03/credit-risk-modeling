@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tensorflow
+tqdm
+mlflow
+git
+shap
+rfpimp
+xgboost
+imbalanced-learn
