@@ -1,0 +1,14 @@
+{
+    "hyperparameters": {
+        "learning_rate": 0.0020000000000000005,
+        "n_estimators": 4000,
+        "subsample": "None",
+        "max_depth": 3,
+        "colsample_bytree": "None",
+        "gamma": 0.7000000000000001
+    },
+    "train_features": 86,
+    "outliers": "with_outliers",
+    "model": "XGBoost",
+    "imputation": "UnderSampling"
+}
