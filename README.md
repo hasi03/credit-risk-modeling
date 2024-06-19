@@ -36,7 +36,7 @@ Data preprocessing is an essential step in preparing the data for analysis and m
 1. Handling missing values: Missing values in the dataset were identified and handled using techniques such as imputation or deletion.
 
 2. Handling Outliers: Used Z-score to identify the outliers in the numerical features. Call the module
-   ```bash
+  ```bash
   from feature_engineering import outliers
   ``` 
 
