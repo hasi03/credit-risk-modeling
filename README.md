@@ -31,14 +31,18 @@ The dataset represents over 300 k personal home loans.
 
 ### Data Preprocessing
 
-Data preprocessing is an essential step in preparing the data for analysis and modeling. It involves transforming the raw data into a format that is suitable for machine learning algorithms. In this project, the following data preprocessing steps were performed:
+Data preprocessing is an essential step in preparing the data for analysis and modeling. It involves transforming the raw data into a format that is suitable for machine learning algorithms. In this project, we followed the data preprocessing steps below:
 
-1. Handling missing values: Missing values in the dataset were identified and handled using techniques such as imputation or deletion.
-
-2. Handling Outliers: Used Z-score to identify the outliers in the numerical features. Call the module
+1. Handling Outliers: Used Z-score to identify the outliers in the numerical features. Call the module
   ```bash
   from feature_engineering import outliers
-  ``` 
+  ```
+2. **Handling missing values**: Missing data can have a reason for missing, therefore its important to understand the properties of the missing values.
+   I used missingno python library to analyze and visualize the missing values. For some features with missing values, I created an extra column indicating whether a value is missing or not.
+   Then I compared the model performances for different imputation techniques. Imputation techniques used:
+   * Median and Mode Imputation
+   * MICE (Multivariate Imputation by Chained Equation)
+   * Median and Mode Imputation combined mean Imputation
 
 
 ### Class Distribution Analysis
