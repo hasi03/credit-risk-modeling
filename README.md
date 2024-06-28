@@ -33,7 +33,7 @@ The dataset represents over 300 k personal home loans.
 
 Data preprocessing is an essential step in preparing the data for analysis and modeling. It involves transforming the raw data into a format that is suitable for machine learning algorithms. In this project, we followed the data preprocessing steps below:
 
-1. Handling Outliers: Used Z-score to identify the outliers in the numerical features. Call the module
+1. **Handling Outliers**: Used Z-score to identify the outliers in the numerical features. Call the module
   ```bash
   from feature_engineering import outliers
   ```
