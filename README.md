@@ -90,4 +90,5 @@ We utilized 3 different methods to evaluate feature importance.
 
 ## Conclusion
 
-- Best model achieved a **0.66 ROC-auc** score.   
+- Best model achieved a **0.69 ROC-auc** score.
+- **PR-ROC** Score is 140 % better than the baseline model (Due to the imbalance in classes in target variable, I computed Precission-Recall Curve) 
